@@ -1,3 +1,4 @@
 ﻿# Task-3-project
 
-![Task Screenshot](screenshot/video.png)
+![Task Screenshot](screenshot/image.png)
+
