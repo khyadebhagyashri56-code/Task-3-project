@@ -1,8 +1,16 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #121212;
+  background: linear-gradient(135deg, #FF0000, #FF69B4); /* Red to Pink gradient */
   color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: 
+    linear-gradient(135deg, rgba(255,0,0,0.6), rgba(255,105,180,0.6)),
+    url('video.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+
 }
 
 .center {
@@ -21,14 +29,14 @@ input, button {
 }
 
 button {
-  background: #6200ea;
+  background: #00CED1; /* Deep Pink */
   color: white;
   cursor: pointer;
   transition: 0.3s;
 }
 
 button:hover {
-  background: #3700b3;
+  background: #20B2AA;; /* Light Pink on hover */
 }
 
 #videos {
@@ -47,7 +55,7 @@ button:hover {
 
 .top {
   padding: 10px;
-  background: #1f1f1f;
+  background: #FF4500; /* Orange-Red Top bar */
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -55,8 +63,8 @@ button:hover {
 
 #board {
   display: none;
-  background: white;
-  border: 2px solid #444;
+  background: #FFC0CB; /* Light Pink Board */
+  border: 2px solid #FF1493; /* Deep Pink Border */
   border-radius: 10px;
   margin: 20px auto;
 }
