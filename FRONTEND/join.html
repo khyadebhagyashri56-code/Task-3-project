@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Join</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+  <h1>🎥 Mini Video Conference</h1>
+  <input id="room" placeholder="Room ID">
+  <button onclick="join()">Join</button>
+
+  <script>
+    function join() {
+      const roomInput = document.getElementById("room");
+      const roomId = roomInput.value.trim();
+      if (roomId) {
+        location.href = "room.html#" + roomId;
+      } else {
+        alert("Please enter a Room ID");
+      }
+    }
+  </script>
+</body>
+</html>
