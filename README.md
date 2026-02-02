@@ -14,14 +14,14 @@ A real-time video conferencing and collaboration web application built using Web
 HTML, CSS, JavaScript, Node.js, Express.js, Socket.io, WebRTC
 
 #Screenshot
-![real time communication](Screenshots/image.png)
-![real time communication](Screenshots/image2.png)
+![real time communication](screenshots/image.png)
 
 ## Run Project
 ```bash
 npm install
 npm start
 ![Task Screenshot](screenshot/image.png)
+
 
 
 
